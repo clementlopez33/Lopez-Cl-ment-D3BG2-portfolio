@@ -2,13 +2,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 100vh;
+
   min-height: 100vh;
 }
 
 
+
+
 body{
-  background: #efefef;
+  background: #000000;
 }
 
 section{
@@ -42,7 +44,7 @@ section{
 }
 
 #main-menu{
-  background: grey;
+
   width: 320px;
   position: absolute;
   top: 0;
