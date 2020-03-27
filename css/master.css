@@ -2,18 +2,20 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 100vh;
+
   min-height: 100vh;
 }
 
 
+
+
 body{
-  background: #efefef;
+  background: #000000;
 }
 
 section{
   min-height: 98vh;
-  border-bottom: 1px solid #010101;
+
 }
 
 .projects-feature-container{
@@ -24,7 +26,7 @@ section{
 }
 
 .projects-feature{
-  border: 2px solid black;
+
   margin: 0.5em;
   flex-basis: 320px;
 }
@@ -36,13 +38,13 @@ section{
 }
 
 .photo-feature{
-  border: 2px solid black;
+
   margin: 0.5em;
   flex-basis: 320px;
 }
 
 #main-menu{
-  background: pink;
+
   width: 320px;
   position: absolute;
   top: 0;
@@ -107,5 +109,4 @@ section{
 
 #main-menu .close-menu{
   display: none;
-}
 }
