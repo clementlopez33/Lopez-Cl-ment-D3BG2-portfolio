@@ -11,48 +11,65 @@ header{
 }
 
 h1{
+  text-shadow: 0px 0px 16px rgba(230,217,15,0.93);
   font-family: amador, sans-serif;
   font-style: normal;
   font-weight: 400;
   margin-top: 170px;
   margin-bottom: -100px;
   font-size: 15em;
-  color: #272727;
+  color: black;
 
 }
 
 h2{
 
   font-family: sui-generis, sans-serif;
-font-style: normal;
-font-weight:normal;
+  font-style: normal;
+  font-weight:normal;
   font-size: 6em;
   margin-left:150px;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
-  color: #272727;
+  color: #E6D90F;
 }
 
 
 h3{
 
-  font-size: 2em;
+  font-size: 3em;
   font-family: sui-generis, sans-serif;
-font-style: normal;
-font-weight:normal;
-color: #272727;
+  font-style: normal;
+  font-weight:normal;
+  color: #E6D90F;
 }
 
 
 p{
-  color: #272727;
+  color: #E6D90F;
+  font-size: 18px;
 }
 
 
 #main-menu {
   font-family: sui-generis, sans-serif;
-  font-style: normal;
-  font-weight:normal;
+  font-style: oblique;
+  font-weight: bold;
 
 
+}
+#main-menu a{
+  text-decoration:overline;
+  color: #E6D90F;
+}
+
+#back{
+  font-family: sui-generis, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#back a{
+  text-decoration: overline;
+  color: #E6D90F;
 }
