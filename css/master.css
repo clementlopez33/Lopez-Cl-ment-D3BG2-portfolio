@@ -6,41 +6,91 @@ header {
   min-height: 100vh;
 }
 
+h1{
+  margin-top: auto;
+  padding: 20px;
+  padding-top: 30px;
+  border: solid #E6D90F 1px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+h2{
+  border: solid #E6D90F 1px;
+  border-top: none;
+  border-right: none;
+}
+
+h3{
+  padding-bottom: 15px;
+  max-width: 640px;
+}
+
+p{
+  padding-bottom: 3em;
+  max-width: 600px;
+
+}
 
 
 
 body{
   background: #000000;
+  border: solid #272727 4px;
+  margin: 25px;
+  border-top-left-radius: 30px;
 }
 
-section{
+#other{
   min-height: 98vh;
-
 }
+
+#contact{
+  min-height: 98vh;
+}
+
+
+
+#aboutme {
+  max-height: 300px;
+}
+
+
 
 .projects-feature-container{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
+  
 
 }
 
+
 .projects-feature{
 
+  padding-left: 150px;
   margin: 0.5em;
-  flex-basis: 320px;
+  flex-shrink: 1;
 }
 
 .photo-feature-container{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
 .photo-feature{
-
+  padding-left: 150px;
   margin: 0.5em;
-  flex-basis: 320px;
+  flex-shrink: 1;
+}
+
+img{
+width: 600px;
+height: 600px;
+object-fit:contain;
+border: solid #E6D90F 1px;
+
 }
 
 #main-menu{
@@ -56,14 +106,17 @@ section{
 
 #main-menu:target{
   left: 0px;
-  background: yellow;
+  background: grey;
 
   font-size: 2em;
 }
 
 .toggle-menu{
-  border: 2px solid red ;
+  font-family: sui-generis, sans-serif;
+  font-style: italic;
   border-radius: 5px;
+  text-decoration: overline;
+  color: #E6D90F;
 }
 
 
